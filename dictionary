@@ -11,7 +11,7 @@ month_ting={
     "Sep":"September",
     "Oct":"October",
     "Nov":"November",
-    "Dec":"December",
+    "Dec":"Decemer",
 }
 
 print(month_ting["Sep"])
