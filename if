@@ -1,0 +1,40 @@
+is_male = False
+is_tall = True
+
+if is_male or is_tall:
+    print("you are male")
+else:
+    print("You are female")
+
+is_cute = False
+is_chubby = True
+
+if is_cute and is_chubby:
+    print("you are cute or chubby")
+else:
+     print("You are neither cute nor chubby")
+
+has_money = False
+has_looks = False
+
+if has_money and has_looks:
+    print("You have both money and looks")
+elif has_money and not(has_looks):
+    print("You have money but no looks")
+elif not(has_money) and has_looks:
+    print("You have no money but have chiller looks")
+else:
+     print("You are poor and ugly,I'm stressed.")
+
+num1 = input("Enter the 1st number: ")
+num2 = input ("Enter the 2nd number: ")
+num3 = input ("Enter the 3rd number: ")
+def max(num1, num2, num3):
+    if num1 >= num2 and num1 >= num3:
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+print ("The highest number is ")
+print(max(num1,num2,num3))
