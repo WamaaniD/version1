@@ -1,0 +1,20 @@
+print("Mad Libs Game")
+color = input("Enter a color : ")
+plural_noun = input("Enter a plural nouns:  ")
+celeb = input(" Enter a celebrity's name :")
+
+print("Lambos are  " +color)
+print(plural_noun+ "  are blue")
+print("I love  " +celeb)
+
+friends = ["Godi","gouhi","David"]
+print(friends[1])
+print(friends[1:])
+
+friends.append("Fiona")
+print(friends)
+friends.insert(0,"Piper")
+print(friends)
+friends.pop()
+friends.sort()
+print(friends)
